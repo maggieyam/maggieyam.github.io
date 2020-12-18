@@ -2134,6 +2134,16 @@ input, select, textarea {
 				width: 100%;
 			}
 
+		.skill-img {
+			width: 96px;
+			height: 96px;
+			padding: 11px;
+		}
+		.skill-icon {
+			padding-left: 10px;
+			padding-right: 10px;
+		}
+
 /* List */
 
 	ol {
@@ -3763,6 +3773,63 @@ input, select, textarea {
 		display: flex;
 		max-width: 45em;
 	}
+		#cta .inner header .speech {
+			background-image: linear-gradient(45deg, rgb(3, 27, 71), rgb(57, 4, 88));
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			position: relative;
+			width: 80%;
+			margin-top: 100px;
+			margin-left:100px;
+			height: 200px;
+			text-align: center;
+			line-height: 60px;
+			background-color: transparent;
+			border: 8px solid rgb(247, 231, 231);
+			-webkit-border-radius: 40px;
+			-moz-border-radius: 40px;
+			border-radius: 40px;
+			-webkit-box-shadow: 2px 2px 4px rgb(7, 3, 27);
+			-moz-box-shadow: 2px 2px 4px rgb(7, 3, 27);
+			box-shadow: 2px 2px 8px rgb(7, 3, 27);
+			margin-bottom: 100px;
+			font-size: 36px;
+			font-family: 'Indie Flower', cursive;
+			font-family: 'Noto Sans SC', sans-serif;
+			font-weight: 900;
+		}
+
+		#cta .inner .resume {
+			text-align: center;
+		}
+		.fa-phone, .fa-envelope {
+			margin-right: 35px;
+		}
+
+		#cta .inner .contact {
+			line-height: 40px;
+			text-align: center;
+			margin-top: 40px;
+			margin-bottom: 40px;
+		}
+		#cta .inner header .speech:before {
+			content: '';
+			position: absolute;
+			right: 0;
+			top: 80%;
+			width: 0;
+			height: 0;
+			border: 30px solid transparent;
+			border-left-color: rgb(247, 231, 231);
+			border-right: 0;
+			border-bottom: 0;
+			margin-top: -10px;
+			margin-right: -34px;
+			box-shadow: 0px 4px 0px rgb(7, 3, 27);
+		}
+
+		
 
 		#cta .inner header {
 			-moz-order: 1;
@@ -3770,11 +3837,32 @@ input, select, textarea {
 			-ms-order: 1;
 			order: 1;
 			padding-right: 3em;
-			width: 70%;
+			width: 100%;
+		}
+		#cta .inner header .bio {
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			align-items: center;
+			background-color: rgb(17, 17, 17);
+			width: 100%;
+			padding: 60px;
+			padding-bottom: 20px;
+			border-radius: 34px;
+			/* margin-right: 330px; */
+			margin-left: 0px;
+			background-image: linear-gradient(45deg, rgb(3, 27, 71), rgb(57, 4, 88));
 		}
 
 			#cta .inner header p {
 				color: inherit;
+				font-size: 22px;
+				letter-spacing: 2.3px;
+				line-height: 50px;
+				font-family: 'Indie Flower', cursive;
+			
+				font-family: 'Noto Sans SC', sans-serif;
+				/* background-color: rgb(66, 70, 70); */
 			}
 
 		#cta .inner .actions {
