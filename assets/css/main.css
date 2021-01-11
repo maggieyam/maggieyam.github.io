@@ -3851,9 +3851,8 @@ input, select, textarea {
 			width: 100%;
 		}
 
-		div.inner {
-			display: flex;
-			justify-content: center;
+		.inner img {
+			width: 20%;
 		}
 		.bio {
 			display: flex;
@@ -3922,6 +3921,9 @@ input, select, textarea {
 					width: 90%;
 					font-size: 18px;
 				}
+				.inner img {
+					width: 30%;
+				}
 
 		}
 
@@ -3952,6 +3954,15 @@ input, select, textarea {
 					width: 95%;
 					padding: 45px 25px 10px 25px;
 					font-size: 16px;
+				}
+				.inner img {
+					width: 25%;
+				}
+				div.inner {
+					display: flex;
+					flex-direction: column;
+					justify-content: center;
+					align-items: center;
 				}
 
 		}
