@@ -3786,9 +3786,8 @@ input, select, textarea {
 			justify-content: center;
 			align-items: center;
 			position: relative;
-			/* min-width: 296px; */
 			width: 490px;
-			margin: 30px 0 0 0;
+			margin: 180px 0 0 0;
 			height: 150px;
 			text-align: center;
 			line-height: 60px;
@@ -3851,7 +3850,7 @@ input, select, textarea {
 			width: 100%;
 		}
 
-		.inner img {
+		.profile-photo  {
 			width: 20%;
 		}
 		.bio {
@@ -3881,6 +3880,12 @@ input, select, textarea {
 			-ms-order: 2;
 			order: 2;
 			width: 30%;
+		}
+
+		#cta #bubble {
+			display: flex;
+			justify-content: center;
+			align-items: center;
 		}
 
 		@media screen and (max-width: 980px) {
@@ -3921,7 +3926,7 @@ input, select, textarea {
 					width: 90%;
 					font-size: 18px;
 				}
-				.inner img {
+				.profile-photo {
 					width: 30%;
 				}
 
@@ -3936,6 +3941,7 @@ input, select, textarea {
 			#cta .inner .speech {
 					max-width: 12em;
 					max-height: 7em;
+					margin-top: 0px;
 					/* margin-left: 80px; */
 				}
 				#cta #bubble {
@@ -3955,7 +3961,7 @@ input, select, textarea {
 					padding: 45px 25px 10px 25px;
 					font-size: 16px;
 				}
-				.inner img {
+				.profile-photo {
 					width: 25%;
 				}
 				div.inner {
@@ -3964,6 +3970,7 @@ input, select, textarea {
 					justify-content: center;
 					align-items: center;
 				}
+				
 
 		}
 
@@ -3977,6 +3984,7 @@ input, select, textarea {
 				#cta .inner h2.speech {
 					font-size: 12px;
 					line-height: 1em;
+					margin-top: 0;
 					
 				}
 
