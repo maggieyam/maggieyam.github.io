@@ -2090,7 +2090,11 @@ input, select, textarea {
 		}
 
 /* Image */
-
+	.profile-photo {
+		display: inline-block;
+		position: relative;
+		width: 20%;
+	}
 	.image {
 		border-radius: 3px;
 		border: 0;
