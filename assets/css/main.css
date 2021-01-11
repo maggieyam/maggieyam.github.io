@@ -3780,15 +3780,15 @@ input, select, textarea {
 		display: flex;
 		max-width: 45em;
 	}
-		#cta .speech {
+		#cta .inner .speech {
 			background-image: linear-gradient(45deg, rgb(3, 27, 71), rgb(57, 4, 88));
 			display: flex;
 			justify-content: center;
 			align-items: center;
 			position: relative;
-			min-width: 296px;
-			/* width:50%; */
-			margin-top: 100px;
+			/* min-width: 296px; */
+			width: 490px;
+			margin: 30px 0 0 0;
 			height: 150px;
 			text-align: center;
 			line-height: 60px;
@@ -3800,8 +3800,7 @@ input, select, textarea {
 			-webkit-box-shadow: 2px 2px 4px rgb(7, 3, 27);
 			-moz-box-shadow: 2px 2px 4px rgb(7, 3, 27);
 			box-shadow: 2px 2px 8px rgb(7, 3, 27);
-			margin-bottom: 100px;
-			font-size: 32px;
+			font-size: 36px;
 			padding: 20px;
 			font-family: 'Indie Flower', cursive;
 			font-family: 'Noto Sans SC', sans-serif;
@@ -3826,7 +3825,8 @@ input, select, textarea {
 			flex-direction: column;
 			text-align: center;
 		}
-		#cta .speech:before {
+
+		#cta .inner .speech:before {
 			content: '';
 			position: absolute;
 			right: 0;
@@ -3835,8 +3835,8 @@ input, select, textarea {
 			border-left-color: rgb(247, 231, 231);
 			border-right: 0;
 			border-bottom: 0;
-			margin-top: -10px;
-			margin-right: -31px;
+			margin-top: -50px;
+			margin-right: -38px;
 			box-shadow: 0px 4px 0px rgb(7, 3, 27);
 		}
 
@@ -3851,32 +3851,29 @@ input, select, textarea {
 			width: 100%;
 		}
 
-		/* #cta #about {
+		div.inner {
 			display: flex;
-			flex-direction: column;
 			justify-content: center;
-		} */
+		}
 		.bio {
 			display: flex;
 			flex-direction: column;
 			justify-content: center;
 			align-items: center;
 			background-color: rgb(17, 17, 17);
-			width: 100%;
+			width: 80%;
 			padding: 60px;
 			padding-bottom: 20px;
 			border-radius: 34px;
+			font-size: 20px;
 			background-image: linear-gradient(45deg, rgb(3, 27, 71), rgb(57, 4, 88));
 		}
 
 
 			#cta p {
 				color: inherit;
-				font-size: 18px;
-				line-height: 50px;			
 				font-family: 'Noto Sans SC', sans-serif;
 				text-align: justify;
-				/* background-color: rgb(66, 70, 70); */
 			}
 
 		#cta .inner .actions {
@@ -3905,6 +3902,26 @@ input, select, textarea {
 					max-width: 20em;
 					width: 100%;
 				}
+				
+				#cta .inner .speech {
+					max-width: 12em;
+					max-height: 10em;
+					width: 100%;
+				}
+				#cta .inner h2.speech {
+					font-size: 24px;
+					/* margin-right: 0px; */
+				}
+
+				#cta #bubble {
+					display: flex;
+					justify-content: center;
+					align-items: center;
+				}
+				#cta .bio {
+					width: 90%;
+					font-size: 18px;
+				}
 
 		}
 
@@ -3914,7 +3931,60 @@ input, select, textarea {
 				max-width: none;
 			}
 
+			#cta .inner .speech {
+					max-width: 12em;
+					max-height: 7em;
+					/* margin-left: 80px; */
+				}
+				#cta #bubble {
+					display: flex;
+					justify-content: center;
+					align-items: center;
+				}
+				#cta .inner h2.speech {
+					font-size: 18px;
+					line-height: 2em;
+				}
+				#cta .inner .speech:before {
+					margin-right: -37px;
+				}
+				#cta .bio {
+					width: 95%;
+					padding: 45px 25px 10px 25px;
+					font-size: 16px;
+				}
+
 		}
+
+		@media screen and (max-width: 500px) {
+			#cta .inner .speech {
+					max-width: 10em;
+					max-height: 6em;
+					border-radius: 12px;
+					border: 6px solid rgb(247, 231, 231);
+				}
+				#cta .inner h2.speech {
+					font-size: 12px;
+					line-height: 1em;
+					
+				}
+
+				#cta .inner .speech:before {
+					margin-top: -40px;
+					margin-right: -35px;
+				}
+				#cta .bio {
+					width: 100%;
+					padding: 20px;
+					font-size: 14px;
+				}
+				#cta #bubble {
+					display: flex;
+					justify-content: center;
+					align-items: center;
+				}
+		}
+
 
 /* Main */
 
@@ -4090,7 +4160,7 @@ input, select, textarea {
 	}
 
 	body.is-mobile.landing #banner,
-	body.is-mobile.landing .wrapper.style4 {
+	body.is-mobile.landing .wrapper.style3 {
 		background-image: -moz-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/background.jpg");
 		background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/background.jpg");
 		background-image: -ms-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/background.jpg");
@@ -4099,6 +4169,7 @@ input, select, textarea {
 		background-repeat: no-repeat;
 		background-size: cover;
 	}
+
 
 	body.is-mobile.landing #footer {
 		background-color: #1d242a;
