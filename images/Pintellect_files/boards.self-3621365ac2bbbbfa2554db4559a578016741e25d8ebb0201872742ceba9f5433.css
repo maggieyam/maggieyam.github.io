@@ -1,0 +1,602 @@
+@charset "UTF-8";
+/* line 4, /Users/maggieyan/Desktop/pintellect/app/assets/stylesheets/api/boards.scss */
+.board-form {
+  margin: 0;
+  width: 540px;
+  height: 523px;
+  position: relative;
+  display: flex;
+  border-radius: 34px;
+  margin-bottom: 40px;
+  justify-content: space-around;
+  flex-direction: row;
+  background-color: white;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", Helvetica, "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", メイリオ, Meiryo, "ＭＳ Ｐゴシック", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
+/* line 19, /Users/maggieyan/Desktop/pintellect/app/assets/stylesheets/api/boards.scss */
+.form-header {
+  margin-top: 0px;
+  margin-bottom: 30px;
+  font-size: 28px;
+  position: absolute;
+  top: 30px;
+  left: 170px;
+  font-weight: 700;
+  border-block-start: 2px;
+  border-block-end: 2px;
+  border-top-color: #d3d3d3;
+  border-left-color: #d3d3d3;
+  border-color: #d3d3d3;
+}
+
+/* line 32, /Users/maggieyan/Desktop/pintellect/app/assets/stylesheets/api/boards.scss */
+#form-header {
+  margin-bottom: 4px;
+}
+
+/* line 36, /Users/maggieyan/Desktop/pintellect/app/assets/stylesheets/api/boards.scss */
+.form-label {
+  margin-bottom: 6px;
+}
+
+/* line 41, /Users/maggieyan/Desktop/pintellect/app/assets/stylesheets/api/boards.scss */
+.input-create {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0;
+}
+
+/* line 50, /Users/maggieyan/Desktop/pintellect/app/assets/stylesheets/api/boards.scss */
+.input-form {
+  width: 444px;
+  height: 32px;
+  align-items: center;
+  cursor: input;
+  border-radius: 16px;
+  font-size: 16px;
+  text-indent: 0px;
+  padding: 8px 16px;
+  margin-top: 4px;
+  margin-bottom: 4px;
+  font-size: 16px;
+  border: 2px solid #d0d0d0;
+}
+
+/* line 69, /Users/maggieyan/Desktop/pintellect/app/assets/stylesheets/api/boards.scss */
+#secret-toggle {
+  font-size: 20px;
+  font-weight: bold;
+  color: black;
+  margin-top: 20px;
+}
+
+/* line 77, /Users/maggieyan/Desktop/pintellect/app/assets/stylesheets/api/boards.scss */
+#create-btn {
+  position: absolute;
+  right: 42px;
+  bottom: 30px;
+  height: 56px;
+  width: 91.87px;
+  box-sizing: border-box;
+  color: #767676;
+  background-color: #efefef;
+  font-size: 16px;
+  border-radius: 34px;
+}
+
+/* line 88, /Users/maggieyan/Desktop/pintellect/app/assets/stylesheets/api/boards.scss */
+#secret-line {
+  font-size: 16px;
+  margin-top: 5px;
+  color: #767676;
+}
+
+/* line 94, /Users/maggieyan/Desktop/pintellect/app/assets/stylesheets/api/boards.scss */
+.notes, #secret {
+  color: #767676;
+  font-size: 12px;
+  text-align: start;
+  padding-left: 8px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+/* line 103, /Users/maggieyan/Desktop/pintellect/app/assets/stylesheets/api/boards.scss */
+.index {
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", Helvetica, "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", メイリオ, Meiryo, "ＭＳ Ｐゴシック", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  padding: 0px;
+}
+
+/* line 112, /Users/maggieyan/Desktop/pintellect/app/assets/stylesheets/api/boards.scss */
+#index-name {
+  margin-top: -20px;
+  font-size: 16px;
+  color: #111111;
+}
+
+/* line 118, /Users/maggieyan/Desktop/pintellect/app/assets/stylesheets/api/boards.scss */
+#index-header {
+  font-size: 48px;
+  font-weight: bold;
+  margin-top: -40px;
+  margin-bottom: 0px;
+}
+
+/* line 125, /Users/maggieyan/Desktop/pintellect/app/assets/stylesheets/api/boards.scss */
+#show {
+  margin: 0;
+}
+
+/* line 129, /Users/maggieyan/Desktop/pintellect/app/assets/stylesheets/api/boards.scss */
+#index-initial {
+  margin-top: 45px;
+  padding: 60px;
+  vertical-align: middle;
+  background-color: #efefef;
+  font-size: 80px;
+  color: #211922;
+  text-align: center;
+  margin: auto;
+  border-radius: 50%;
+  border: none;
+}
+
+/* line 141, /Users/maggieyan/Desktop/pintellect/app/assets/stylesheets/api/boards.scss */
+#initial-logo {
+  font-size: 72px;
+  font-weight: bold;
+  z-index: 1;
+  margin-top: -110px;
+  border: none;
+}
+
+/* line 150, /Users/maggieyan/Desktop/pintellect/app/assets/stylesheets/api/boards.scss */
+.board-nav-button {
+  width: 77.66px;
+  height: 48px;
+  border-radius: 44px;
+}
+
+/* line 156, /Users/maggieyan/Desktop/pintellect/app/assets/stylesheets/api/boards.scss */
+#nav-link {
+  text-decoration: none;
+  color: #111111;
+  font-size: 16px;
+}
+
+/* line 162, /Users/maggieyan/Desktop/pintellect/app/assets/stylesheets/api/boards.scss */
+.board-nav-button:hover {
+  background-color: #efefef;
+}
+
+/* line 166, /Users/maggieyan/Desktop/pintellect/app/assets/stylesheets/api/boards.scss */
+.board-nav-button {
+  box-sizing: border-box;
+  background-color: white;
+  padding: 0px, 0px;
+}
+
+/* line 172, /Users/maggieyan/Desktop/pintellect/app/assets/stylesheets/api/boards.scss */
+#today {
+  width: 78.61px;
+  margin: 0;
+}
+
+/* line 176, /Users/maggieyan/Desktop/pintellect/app/assets/stylesheets/api/boards.scss */
+#home-button {
+  background-color: #211922;
+  color: #FFF;
+}
+/* line 179, /Users/maggieyan/Desktop/pintellect/app/assets/stylesheets/api/boards.scss */
+#home-button #home-link {
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+/* line 186, /Users/maggieyan/Desktop/pintellect/app/assets/stylesheets/api/boards.scss */
+#following {
+  margin-right: 20px;
+  margin-left: 0;
+  width: 106.16px;
+}
+
+/* line 192, /Users/maggieyan/Desktop/pintellect/app/assets/stylesheets/api/boards.scss */
+.logo {
+  margin: 10px 5px 10px 30px;
+  color: #E60023;
+}
+
+/* line 196, /Users/maggieyan/Desktop/pintellect/app/assets/stylesheets/api/boards.scss */
+.board-logo {
+  margin: 10px 5px 10px 30px;
+  color: #E60023;
+}
+
+@media only screen and (max-width: 1500px) {
+  /* line 202, /Users/maggieyan/Desktop/pintellect/app/assets/stylesheets/api/boards.scss */
+  #following, #today {
+    display: none;
+  }
+}
+/* line 209, /Users/maggieyan/Desktop/pintellect/app/assets/stylesheets/api/boards.scss */
+.header-group {
+  padding: 4px 0px;
+  position: relative;
+  justify-content: center;
+  flex-direction: row;
+}
+
+/* line 218, /Users/maggieyan/Desktop/pintellect/app/assets/stylesheets/api/boards.scss */
+.drop-down-icon {
+  margin-top: 5px;
+  margin-left: 25px;
+  color: #767676;
+  cursor: pointer;
+}
+
+/* line 227, /Users/maggieyan/Desktop/pintellect/app/assets/stylesheets/api/boards.scss */
+#add-pin {
+  color: #E60023;
+}
+
+/* line 232, /Users/maggieyan/Desktop/pintellect/app/assets/stylesheets/api/boards.scss */
+.search-icon {
+  z-index: 2;
+  position: absolute;
+  top: 34px;
+  left: 400px;
+  color: #767676;
+}
+
+/* line 240, /Users/maggieyan/Desktop/pintellect/app/assets/stylesheets/api/boards.scss */
+.icon {
+  padding: 25px, 25px;
+  margin-left: 25px;
+  cursor: pointer;
+}
+
+/* line 247, /Users/maggieyan/Desktop/pintellect/app/assets/stylesheets/api/boards.scss */
+#edit-board {
+  cursor: pointer;
+}
+
+/* line 257, /Users/maggieyan/Desktop/pintellect/app/assets/stylesheets/api/boards.scss */
+#bell, #log-out, #comment {
+  margin-left: 20px;
+  color: #767676;
+}
+
+/* line 263, /Users/maggieyan/Desktop/pintellect/app/assets/stylesheets/api/boards.scss */
+#initial {
+  background-color: #efefef;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  padding: 20px, 20px;
+}
+
+/* line 273, /Users/maggieyan/Desktop/pintellect/app/assets/stylesheets/api/boards.scss */
+#initial-link {
+  text-decoration: none;
+  font-size: 12px;
+  text-anchor: center;
+  margin: 0;
+}
+
+/* line 281, /Users/maggieyan/Desktop/pintellect/app/assets/stylesheets/api/boards.scss */
+#modal-create:hover {
+  border-radius: 50%;
+  background-color: #efefef;
+}
+
+/* line 288, /Users/maggieyan/Desktop/pintellect/app/assets/stylesheets/api/boards.scss */
+#modal-create {
+  position: absolute;
+  right: 40px;
+  top: 60px;
+  width: 28px;
+  height: 28px;
+  padding: 20px;
+  font-weight: 400;
+  color: black;
+}
+
+/* line 300, /Users/maggieyan/Desktop/pintellect/app/assets/stylesheets/api/boards.scss */
+#board-edit-form {
+  height: 800px;
+  width: 540px;
+  display: flex;
+  border-radius: 34px;
+  align-items: center;
+  margin-bottom: 40px;
+  flex-direction: column;
+  justify-content: center;
+  flex-wrap: wrap;
+  background-color: white;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", Helvetica, "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", メイリオ, Meiryo, "ＭＳ Ｐゴシック", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
+/* line 320, /Users/maggieyan/Desktop/pintellect/app/assets/stylesheets/api/boards.scss */
+#form-header {
+  padding-top: 32px;
+  padding-bottom: 32px;
+  font-weight: 700;
+  font-size: 28px;
+}
+
+/* line 327, /Users/maggieyan/Desktop/pintellect/app/assets/stylesheets/api/boards.scss */
+#form-body {
+  flex-direction: column;
+  justify-content: space-around;
+  height: 655px;
+  border: 1px;
+  padding-left: 32px;
+  padding-right: 32px;
+}
+
+/* line 339, /Users/maggieyan/Desktop/pintellect/app/assets/stylesheets/api/boards.scss */
+input #input-name {
+  color: red;
+}
+
+/* line 343, /Users/maggieyan/Desktop/pintellect/app/assets/stylesheets/api/boards.scss */
+.textarea {
+  padding: 8px 16px;
+  width: 444px;
+  height: 60px;
+  border-radius: 16px;
+  margin-top: 0px;
+  margin-bottom: 25px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  border: 2px solid #d0d0d0;
+}
+
+/* line 355, /Users/maggieyan/Desktop/pintellect/app/assets/stylesheets/api/boards.scss */
+.description {
+  margin-top: 25px;
+  margin-bottom: 4px;
+}
+
+/* line 360, /Users/maggieyan/Desktop/pintellect/app/assets/stylesheets/api/boards.scss */
+#settings {
+  font-size: 12px;
+  margin-top: 25px;
+}
+
+/* line 365, /Users/maggieyan/Desktop/pintellect/app/assets/stylesheets/api/boards.scss */
+.done-btn, #delete-btn {
+  height: 56px;
+  width: 91.87px;
+  box-sizing: border-box;
+  font-size: 16px;
+  border-radius: 34px;
+}
+
+/* line 377, /Users/maggieyan/Desktop/pintellect/app/assets/stylesheets/api/boards.scss */
+.done-btn {
+  background-color: #E60023;
+  color: #fff;
+}
+
+/* line 382, /Users/maggieyan/Desktop/pintellect/app/assets/stylesheets/api/boards.scss */
+#delete-button {
+  background-color: #efefef;
+  color: #111111;
+  position: absolute;
+  left: 42px;
+  bottom: 70px;
+}
+
+/* line 388, /Users/maggieyan/Desktop/pintellect/app/assets/stylesheets/api/boards.scss */
+.edit-form-btns {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin-top: 120px;
+}
+
+/* line 396, /Users/maggieyan/Desktop/pintellect/app/assets/stylesheets/api/boards.scss */
+#initial-logo {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+/* line 418, /Users/maggieyan/Desktop/pintellect/app/assets/stylesheets/api/boards.scss */
+.board-index-main-container {
+  position: absolute;
+  top: 180px;
+  width: 100vw;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 70px;
+}
+
+/* line 432, /Users/maggieyan/Desktop/pintellect/app/assets/stylesheets/api/boards.scss */
+.wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+/* line 438, /Users/maggieyan/Desktop/pintellect/app/assets/stylesheets/api/boards.scss */
+.board-item-container {
+  width: 100%;
+  height: auto;
+  display: flex;
+  padding: 20px;
+  margin: 20px 5px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+
+/* line 452, /Users/maggieyan/Desktop/pintellect/app/assets/stylesheets/api/boards.scss */
+#index-item {
+  width: 230px;
+  height: 215px;
+  padding: 8px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+/* line 471, /Users/maggieyan/Desktop/pintellect/app/assets/stylesheets/api/boards.scss */
+#left-img {
+  position: relative;
+  width: 153px;
+  height: 153px;
+  margin-bottom: 0;
+  margin-right: 0px;
+  object-fit: cover;
+  background-color: #efefef;
+  margin-right: 2px;
+}
+
+/* line 483, /Users/maggieyan/Desktop/pintellect/app/assets/stylesheets/api/boards.scss */
+#right-img1, #right-img2 {
+  width: 73px;
+  height: 73px;
+  object-fit: cover;
+  background-color: #efefef;
+  border: 1px solid #fff;
+  margin-bottom: 0;
+}
+
+/* line 492, /Users/maggieyan/Desktop/pintellect/app/assets/stylesheets/api/boards.scss */
+.dropDown-board {
+  position: absolute;
+  top: 130px;
+  right: 19px;
+  box-shadow: 5px 5px 4px 5px #888888;
+  width: 164px;
+  height: 109px;
+  border-radius: 16px;
+  text-align: start;
+  align-items: flex-start;
+  padding: 20px;
+  text-indent: 4px;
+  display: none;
+  background-color: #FFF;
+  z-index: 3;
+}
+/* line 507, /Users/maggieyan/Desktop/pintellect/app/assets/stylesheets/api/boards.scss */
+.dropDown-board .dropDown-text-board {
+  width: 164px;
+  height: 35px;
+  background-color: #FFF;
+  font-weight: 700px;
+  text-align: start;
+  text-indent: 6px;
+  margin: 0px;
+  padding-left: 0px;
+}
+/* line 517, /Users/maggieyan/Desktop/pintellect/app/assets/stylesheets/api/boards.scss */
+.dropDown-board .dropDown-text-board:hover {
+  border-radius: 8px;
+  width: 160px;
+  background-color: #efefef;
+}
+
+/* line 526, /Users/maggieyan/Desktop/pintellect/app/assets/stylesheets/api/boards.scss */
+#create-board-index {
+  color: #111111;
+  font-size: 12px;
+  font-weight: 400px;
+}
+
+/* line 532, /Users/maggieyan/Desktop/pintellect/app/assets/stylesheets/api/boards.scss */
+#images-main-container {
+  position: relative;
+  width: 230px;
+  height: 157px;
+  border-radius: 16px;
+  background-color: #efefef;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+/* line 546, /Users/maggieyan/Desktop/pintellect/app/assets/stylesheets/api/boards.scss */
+#edit-board {
+  padding: 7px;
+  border-radius: 50%;
+  position: absolute;
+  bottom: 15px;
+  right: 7px;
+  color: transparent;
+  z-index: 3;
+}
+
+/* line 557, /Users/maggieyan/Desktop/pintellect/app/assets/stylesheets/api/boards.scss */
+#images-main-container:hover #edit-board {
+  color: #111111;
+  background-color: #FFF;
+}
+
+/* line 563, /Users/maggieyan/Desktop/pintellect/app/assets/stylesheets/api/boards.scss */
+board-columns {
+  padding: 20px;
+}
+
+/* line 567, /Users/maggieyan/Desktop/pintellect/app/assets/stylesheets/api/boards.scss */
+.labels-board-index {
+  width: 236px;
+  height: 42px;
+}
+
+/* line 573, /Users/maggieyan/Desktop/pintellect/app/assets/stylesheets/api/boards.scss */
+#board-show {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+/* line 581, /Users/maggieyan/Desktop/pintellect/app/assets/stylesheets/api/boards.scss */
+#board-show-top {
+  min-height: 149px;
+  padding: 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+/* line 589, /Users/maggieyan/Desktop/pintellect/app/assets/stylesheets/api/boards.scss */
+#board-show-pins {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+}
+/* line 594, /Users/maggieyan/Desktop/pintellect/app/assets/stylesheets/api/boards.scss */
+#board-show-pins .column {
+  display: flex;
+  justify-content: center;
+}
+
+/* line 600, /Users/maggieyan/Desktop/pintellect/app/assets/stylesheets/api/boards.scss */
+h1 > .edit-pen {
+  padding: 20px;
+  padding-bottom: 0;
+}
+
+/* line 605, /Users/maggieyan/Desktop/pintellect/app/assets/stylesheets/api/boards.scss */
+#board-description {
+  padding-right: 10px;
+}

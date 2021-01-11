@@ -1,0 +1,291 @@
+/* line 5, /Users/maggieyan/Desktop/pintellect/app/assets/stylesheets/api/users.scss */
+.header-group {
+  padding-top: 20px;
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  font-weight: 700px;
+}
+
+/* line 14, /Users/maggieyan/Desktop/pintellect/app/assets/stylesheets/api/users.scss */
+.main-nav {
+  display: flex;
+  height: 68px;
+  justify-content: space-between;
+  padding: 0px 20px;
+}
+
+/* line 23, /Users/maggieyan/Desktop/pintellect/app/assets/stylesheets/api/users.scss */
+.right-nav {
+  justify-content: flex-end;
+  flex-direction: row;
+  height: 56px;
+}
+
+/* line 31, /Users/maggieyan/Desktop/pintellect/app/assets/stylesheets/api/users.scss */
+.right-nav-icons {
+  display: flex;
+  justify-content: space-between;
+  width: 168px;
+  height: 48px;
+  position: relative;
+  right: 0.5vw;
+  padding: 5px 10px 0;
+}
+
+/* line 41, /Users/maggieyan/Desktop/pintellect/app/assets/stylesheets/api/users.scss */
+.left-nav-icons {
+  max-height: 80px;
+  display: flex;
+  flex-direction: row;
+}
+
+/* line 47, /Users/maggieyan/Desktop/pintellect/app/assets/stylesheets/api/users.scss */
+.left-nav {
+  color: #e60023;
+  display: flex;
+  flex-direction: row;
+}
+
+/* line 53, /Users/maggieyan/Desktop/pintellect/app/assets/stylesheets/api/users.scss */
+.right-nav-items {
+  vertical-align: middle;
+  padding: 20px 20px;
+}
+
+/* line 58, /Users/maggieyan/Desktop/pintellect/app/assets/stylesheets/api/users.scss */
+#login {
+  background-color: #e60023;
+  color: white;
+}
+
+/* line 63, /Users/maggieyan/Desktop/pintellect/app/assets/stylesheets/api/users.scss */
+#signup {
+  background-color: #efefef;
+  color: black;
+  width: 88.13px;
+}
+
+/* line 69, /Users/maggieyan/Desktop/pintellect/app/assets/stylesheets/api/users.scss */
+.link-nav {
+  font-weight: 700;
+  font-size: 18px;
+  margin-right: 20px;
+}
+
+/* line 75, /Users/maggieyan/Desktop/pintellect/app/assets/stylesheets/api/users.scss */
+.link-nav:hover {
+  text-decoration: underline;
+}
+
+/* line 78, /Users/maggieyan/Desktop/pintellect/app/assets/stylesheets/api/users.scss */
+button#modal-button {
+  width: 320px;
+  height: 40 px;
+  margin-bottom: 10px;
+  background-color: #e60023;
+  color: white;
+  margin-left: 0px;
+  margin-top: 20px;
+}
+
+/* line 89, /Users/maggieyan/Desktop/pintellect/app/assets/stylesheets/api/users.scss */
+button:focus {
+  outline: none;
+}
+
+/* line 93, /Users/maggieyan/Desktop/pintellect/app/assets/stylesheets/api/users.scss */
+button#demo-button1 {
+  background-color: #1877F2;
+  color: white;
+  margin-bottom: 10px;
+}
+
+/* line 99, /Users/maggieyan/Desktop/pintellect/app/assets/stylesheets/api/users.scss */
+#demo-button1, #demo-button2 {
+  width: 320px;
+  height: 40 px;
+  margin-left: 0;
+  background-color: #efefef;
+  color: #111111;
+}
+
+/* line 108, /Users/maggieyan/Desktop/pintellect/app/assets/stylesheets/api/users.scss */
+.main-content {
+  margin-top: 73.5px;
+  font-size: 60px;
+  text-align: center;
+  font-weight: 600;
+}
+/* line 114, /Users/maggieyan/Desktop/pintellect/app/assets/stylesheets/api/users.scss */
+.main-content div {
+  margin: 2px;
+  height: 30%;
+}
+/* line 119, /Users/maggieyan/Desktop/pintellect/app/assets/stylesheets/api/users.scss */
+.main-content p {
+  z-index: 0;
+  color: #618c7b;
+  margin: 10px;
+  transform: translateY(-80px);
+}
+
+/* line 127, /Users/maggieyan/Desktop/pintellect/app/assets/stylesheets/api/users.scss */
+#search:focus {
+  box-shadow: 0 0 4pt 4pt #4a8ad4;
+  border-radius: 34px;
+}
+
+/* line 132, /Users/maggieyan/Desktop/pintellect/app/assets/stylesheets/api/users.scss */
+#search {
+  height: 48px;
+  text-indent: 50px;
+  border: none;
+  border-radius: 44px;
+  background-color: #efefef;
+  font-size: 16px;
+  width: 70%;
+  margin-left: 10px;
+  color: #333;
+}
+
+/* line 145, /Users/maggieyan/Desktop/pintellect/app/assets/stylesheets/api/users.scss */
+.seeds-container {
+  z-index: -1;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+  height: 250vh;
+  overflow: hidden;
+  margin-top: -210px;
+  overflow: hidden;
+}
+/* line 157, /Users/maggieyan/Desktop/pintellect/app/assets/stylesheets/api/users.scss */
+.seeds-container .column {
+  width: 235px;
+  margin-right: 8.5px;
+  margin-left: 8.5px;
+}
+
+/* line 164, /Users/maggieyan/Desktop/pintellect/app/assets/stylesheets/api/users.scss */
+img {
+  border-radius: 12px;
+  width: 235px;
+  position: relative;
+  margin-bottom: 15px;
+}
+
+/* line 173, /Users/maggieyan/Desktop/pintellect/app/assets/stylesheets/api/users.scss */
+.placeholder1, .placeholder5 {
+  height: 130px;
+}
+
+/* line 176, /Users/maggieyan/Desktop/pintellect/app/assets/stylesheets/api/users.scss */
+.placeholder2, .placeholder4 {
+  height: 250px;
+}
+
+/* line 179, /Users/maggieyan/Desktop/pintellect/app/assets/stylesheets/api/users.scss */
+.placeholder3 {
+  height: 400px;
+}
+
+/* line 183, /Users/maggieyan/Desktop/pintellect/app/assets/stylesheets/api/users.scss */
+.faStroopwafel1 {
+  margin-right: 15px;
+  color: #C28B00;
+}
+
+/* line 187, /Users/maggieyan/Desktop/pintellect/app/assets/stylesheets/api/users.scss */
+.faStroopwafel2 {
+  color: #E60023;
+  margin-right: 15px;
+}
+
+/* line 191, /Users/maggieyan/Desktop/pintellect/app/assets/stylesheets/api/users.scss */
+.faStroopwafel3 {
+  color: #618C7B;
+}
+
+/* line 195, /Users/maggieyan/Desktop/pintellect/app/assets/stylesheets/api/users.scss */
+#go-to-board {
+  border-radius: 5px;
+  padding: 0 5px;
+  text-align: center;
+  border-radius: 50%;
+  width: 35px;
+  height: 35px;
+  margin-bottom: 15px;
+  border: 2px solid #111111;
+}
+
+/* line 210, /Users/maggieyan/Desktop/pintellect/app/assets/stylesheets/api/users.scss */
+.user-initial {
+  width: 48px;
+  height: 48px;
+  font-size: 16px;
+  font-weight: 700;
+  color: #211922;
+  background-color: #efefef;
+  border-radius: 50%;
+  margin: 20px;
+}
+
+/* line 222, /Users/maggieyan/Desktop/pintellect/app/assets/stylesheets/api/users.scss */
+#board-nav-header {
+  color: #E60023;
+}
+
+/* line 226, /Users/maggieyan/Desktop/pintellect/app/assets/stylesheets/api/users.scss */
+.about-wrapper {
+  height: 100vh;
+}
+
+/* line 230, /Users/maggieyan/Desktop/pintellect/app/assets/stylesheets/api/users.scss */
+.about {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://cdn.asiatatler.com/asiatatler/i/ph/2020/04/14145432-valdemaras-d-7vpfyhb-j8y-unsplash_cover_1920x1217.jpg");
+  background-size: cover;
+  filter: blur(2px);
+  -webkit-filter: blur(2px);
+  height: 100vh;
+}
+
+/* line 242, /Users/maggieyan/Desktop/pintellect/app/assets/stylesheets/api/users.scss */
+.about-title, .about-content {
+  margin-bottom: 20px;
+  max-width: 500px;
+  font-family: "NeueHaasGrot-Pinterest-DispRound-75-Bold",sans-serif,helvetica;
+  color: #fff;
+  z-index: 2;
+  position: absolute;
+  top: 32%;
+  left: 15%;
+}
+
+/* line 253, /Users/maggieyan/Desktop/pintellect/app/assets/stylesheets/api/users.scss */
+.about-content {
+  font-size: 50px;
+  line-height: 1;
+  margin: 0;
+  top: 37%;
+}
+
+/* line 260, /Users/maggieyan/Desktop/pintellect/app/assets/stylesheets/api/users.scss */
+.about-btn {
+  width: 157.2px;
+  height: 52px;
+  background-color: #e60023;
+  color: #fff;
+  border-radius: 4px;
+  z-index: 2;
+  position: absolute;
+  top: 57%;
+  left: 15%;
+  margin-left: 0;
+  font-family: "NeueHaasGrot-Pinterest-DispRound-75-Bold",sans-serif,helvetica;
+  font-weight: 400;
+  font-size: 20px;
+}

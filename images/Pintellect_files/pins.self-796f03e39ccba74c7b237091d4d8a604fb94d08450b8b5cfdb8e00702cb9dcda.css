@@ -1,0 +1,480 @@
+/* line 5, /Users/maggieyan/Desktop/pintellect/app/assets/stylesheets/api/pins.scss */
+#body-container {
+  width: 100%;
+  height: 849px;
+  background-color: #efefef;
+}
+
+/* line 11, /Users/maggieyan/Desktop/pintellect/app/assets/stylesheets/api/pins.scss */
+#body-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: 674px;
+  margin-right: 0px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  transform-origin: center top;
+  box-sizing: border-box;
+}
+
+/* line 24, /Users/maggieyan/Desktop/pintellect/app/assets/stylesheets/api/pins.scss */
+#pin-create-form {
+  background-color: #FFFFFF;
+  padding-top: 40px;
+  padding-left: 40px;
+  padding-right: 40px;
+  width: 840px;
+  height: 610px;
+  border-radius: 16px;
+  flex-direction: column;
+}
+
+/* line 36, /Users/maggieyan/Desktop/pintellect/app/assets/stylesheets/api/pins.scss */
+#top-bar {
+  display: flex;
+  width: 800px;
+  height: 40px;
+  padding-left: 0;
+  padding-right: 0;
+  padding-top: 0;
+  margin-right: 0px;
+  justify-content: space-between;
+}
+
+/* line 47, /Users/maggieyan/Desktop/pintellect/app/assets/stylesheets/api/pins.scss */
+#nav-right-pin-reset {
+  margin-right: 0px;
+}
+
+/* line 51, /Users/maggieyan/Desktop/pintellect/app/assets/stylesheets/api/pins.scss */
+#nav-right-pin-form {
+  margin-right: 0px;
+  width: 296px;
+  position: relative;
+  right: 1vw;
+}
+
+/* line 58, /Users/maggieyan/Desktop/pintellect/app/assets/stylesheets/api/pins.scss */
+#dots-pin-form {
+  width: 40px;
+  height: 40px;
+  padding-left: 12px;
+  padding-right: 12px;
+  text-align: center;
+}
+
+/* line 70, /Users/maggieyan/Desktop/pintellect/app/assets/stylesheets/api/pins.scss */
+#nav-right-btns {
+  display: flex;
+  justify-content: space-between;
+  width: 236px;
+  margin-left: 30px;
+}
+/* line 78, /Users/maggieyan/Desktop/pintellect/app/assets/stylesheets/api/pins.scss */
+#nav-right-btns #select {
+  display: flex;
+  justify-content: space-between;
+  padding-right: 3px;
+  cursor: pointer;
+}
+
+/* line 88, /Users/maggieyan/Desktop/pintellect/app/assets/stylesheets/api/pins.scss */
+.save {
+  background-color: #E60023;
+  border-top-left-radius: 0px;
+  border-bottom-left-radius: 0px;
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+  width: 65.23px;
+  height: 40px;
+  margin-left: 0px;
+  color: #FFFFFF;
+}
+
+/* line 100, /Users/maggieyan/Desktop/pintellect/app/assets/stylesheets/api/pins.scss */
+#svg-pin-drop-down {
+  display: block;
+  position: absolute;
+  top: 10px;
+  margin-left: 115px;
+}
+
+/* line 107, /Users/maggieyan/Desktop/pintellect/app/assets/stylesheets/api/pins.scss */
+#svg-pin-form-dot {
+  color: #878787;
+  width: 18px;
+  height: 18px;
+  padding-top: 10px;
+}
+
+/* line 115, /Users/maggieyan/Desktop/pintellect/app/assets/stylesheets/api/pins.scss */
+#pin-form-body {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* line 120, /Users/maggieyan/Desktop/pintellect/app/assets/stylesheets/api/pins.scss */
+#select {
+  display: flex;
+  align-items: center;
+  padding-left: 13px;
+  width: 170.77px;
+  height: 40px;
+  color: #111111;
+  border-radius: 6px 6px 0px 0px;
+  background-color: #efefef;
+  font-weight: 400;
+}
+
+/* line 137, /Users/maggieyan/Desktop/pintellect/app/assets/stylesheets/api/pins.scss */
+#create-pin-left {
+  width: 340px;
+  height: 510px;
+  margin-right: 0px;
+  margin-left: 20px;
+}
+
+/* line 143, /Users/maggieyan/Desktop/pintellect/app/assets/stylesheets/api/pins.scss */
+#create-pin-right {
+  display: flex;
+  justify-content: space-between;
+  width: 380px;
+  height: 446px;
+  padding-left: 25px;
+  margin-right: 25px;
+  flex-direction: column;
+}
+
+/* line 154, /Users/maggieyan/Desktop/pintellect/app/assets/stylesheets/api/pins.scss */
+#upload-img {
+  width: 340px;
+  height: 454px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #efefef;
+  border-radius: 16px;
+}
+
+/* line 164, /Users/maggieyan/Desktop/pintellect/app/assets/stylesheets/api/pins.scss */
+#save-from-site {
+  width: 340px;
+  height: 48px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-left: 12px;
+  padding-right: 12px;
+  margin-left: 0px;
+  margin-top: 10px;
+  background-color: #efefef;
+  color: #111111;
+}
+
+/* line 177, /Users/maggieyan/Desktop/pintellect/app/assets/stylesheets/api/pins.scss */
+#all-boards {
+  font-weight: 400;
+  font-size: 14px;
+  position: absolute;
+  top: 130px;
+  margin-left: 15px;
+  text-align: start;
+}
+
+/* line 186, /Users/maggieyan/Desktop/pintellect/app/assets/stylesheets/api/pins.scss */
+#input-form-pins {
+  border: none;
+  border-bottom: 2px solid #efefef;
+  width: 380px;
+  height: 60px;
+  padding-bottom: 0px;
+  margin-top: 20px;
+  font-weight: 600;
+  font-size: 36px;
+}
+
+/* line 203, /Users/maggieyan/Desktop/pintellect/app/assets/stylesheets/api/pins.scss */
+#add-title {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 30px 15px 15px 0px;
+  height: 250px;
+  font-size: 16px;
+}
+
+/* line 214, /Users/maggieyan/Desktop/pintellect/app/assets/stylesheets/api/pins.scss */
+#choose-link, #input-pin {
+  width: 380px;
+  font-size: 18px;
+  border: none;
+  border-bottom: 2px solid #efefef;
+  margin-top: 20px;
+}
+
+/* line 222, /Users/maggieyan/Desktop/pintellect/app/assets/stylesheets/api/pins.scss */
+#choose-link:focus, #input-pin:focus, #input-form-pins:focus {
+  outline: none;
+}
+
+/* line 225, /Users/maggieyan/Desktop/pintellect/app/assets/stylesheets/api/pins.scss */
+#choose-link {
+  margin-top: 140px;
+}
+
+/* line 229, /Users/maggieyan/Desktop/pintellect/app/assets/stylesheets/api/pins.scss */
+#names {
+  flex-direction: row;
+}
+
+/* line 232, /Users/maggieyan/Desktop/pintellect/app/assets/stylesheets/api/pins.scss */
+#pin-initial {
+  width: 32px;
+  height: 32px;
+}
+
+/* line 237, /Users/maggieyan/Desktop/pintellect/app/assets/stylesheets/api/pins.scss */
+#dropDown-content {
+  width: 296px;
+  height: 439px;
+  display: none;
+  text-align: center;
+  padding-left: 12px;
+  padding-right: 12px;
+  box-sizing: border-box;
+  stroke: #efefef;
+  display: none;
+  margin-top: 10px;
+  background-color: #fff;
+  border-radius: 16px;
+  box-shadow: 10px 10px 8px 10px #888888;
+}
+
+/* line 262, /Users/maggieyan/Desktop/pintellect/app/assets/stylesheets/api/pins.scss */
+#wrapper-dropdown {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* line 269, /Users/maggieyan/Desktop/pintellect/app/assets/stylesheets/api/pins.scss */
+.dropDown-options {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  font-weight: 700;
+  margin-top: 40px;
+  max-height: 280px;
+  overflow-y: auto;
+}
+
+/* line 279, /Users/maggieyan/Desktop/pintellect/app/assets/stylesheets/api/pins.scss */
+.mini-img {
+  width: 36px;
+  height: 36px;
+  margin-bottom: 0px;
+  margin-right: 15px;
+}
+
+/* line 286, /Users/maggieyan/Desktop/pintellect/app/assets/stylesheets/api/pins.scss */
+.select-board {
+  width: 272px;
+  min-height: 48px;
+  text-align: left;
+  padding: 10px;
+  vertical-align: middle;
+  margin: 4px 12px 4px 12px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+/* line 297, /Users/maggieyan/Desktop/pintellect/app/assets/stylesheets/api/pins.scss */
+.select-board:hover {
+  background: #efefef;
+  border-radius: 16px;
+}
+
+/* line 302, /Users/maggieyan/Desktop/pintellect/app/assets/stylesheets/api/pins.scss */
+#svg-pin-create-board {
+  color: #e60023;
+  margin-left: 18px;
+  margin-top: 5px;
+}
+
+/* line 308, /Users/maggieyan/Desktop/pintellect/app/assets/stylesheets/api/pins.scss */
+input#search-pins {
+  width: 272px;
+  height: 48px;
+  border-radius: 24px;
+  padding: 8px 40px 8px 50px;
+  border: 2px solid #ddd;
+  text-align: start;
+  font-size: 18px;
+}
+
+/* line 318, /Users/maggieyan/Desktop/pintellect/app/assets/stylesheets/api/pins.scss */
+#search-pins:focus {
+  box-shadow: 0 0 4pt 4pt #4a8ad4;
+}
+
+/* line 323, /Users/maggieyan/Desktop/pintellect/app/assets/stylesheets/api/pins.scss */
+#svg-pin-form-search {
+  position: absolute;
+  top: 76px;
+  left: 30px;
+  color: #767676;
+  z-index: 1;
+}
+
+/* line 331, /Users/maggieyan/Desktop/pintellect/app/assets/stylesheets/api/pins.scss */
+#top-pin-select {
+  width: 320px;
+  height: 60px;
+  padding: 12px;
+  text-align: center;
+  vertical-align: center;
+}
+
+/* line 339, /Users/maggieyan/Desktop/pintellect/app/assets/stylesheets/api/pins.scss */
+#create-board-btn {
+  display: flex;
+  justify-content: start;
+  width: 304px;
+  height: 36px;
+  padding: 8px;
+}
+
+/* line 348, /Users/maggieyan/Desktop/pintellect/app/assets/stylesheets/api/pins.scss */
+#text-create-board {
+  margin-left: 20px;
+  margin-top: 10px;
+  font-weight: 700;
+}
+
+/* line 354, /Users/maggieyan/Desktop/pintellect/app/assets/stylesheets/api/pins.scss */
+.pins-seeds-container {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  margin-top: 10px;
+  width: 100%;
+  justify-content: center;
+  align-items: start;
+}
+/* line 363, /Users/maggieyan/Desktop/pintellect/app/assets/stylesheets/api/pins.scss */
+.pins-seeds-container .column {
+  position: relative;
+  margin-left: 8.5px;
+  margin-right: 8.5px;
+}
+
+/* line 370, /Users/maggieyan/Desktop/pintellect/app/assets/stylesheets/api/pins.scss */
+.pins {
+  position: relative;
+  height: auto;
+}
+
+/* line 375, /Users/maggieyan/Desktop/pintellect/app/assets/stylesheets/api/pins.scss */
+.pin-show-delete {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+}
+
+/* line 383, /Users/maggieyan/Desktop/pintellect/app/assets/stylesheets/api/pins.scss */
+.main-container-pin-show {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+}
+
+/* line 390, /Users/maggieyan/Desktop/pintellect/app/assets/stylesheets/api/pins.scss */
+.center-container-pin-show {
+  max-width: 1016px;
+  display: flex;
+  border-radius: 16px;
+  box-shadow: 10px 10px 8px 10px #888888;
+  justify-content: space-between;
+  cursor: pointer;
+  vertical-align: center;
+}
+
+/* line 400, /Users/maggieyan/Desktop/pintellect/app/assets/stylesheets/api/pins.scss */
+.left-container-pin-show > img {
+  width: 100%;
+  max-height: 100%;
+  display: block;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 0px;
+}
+
+/* line 409, /Users/maggieyan/Desktop/pintellect/app/assets/stylesheets/api/pins.scss */
+.left-container-pin-show {
+  vertical-align: middle;
+  margin: auto;
+}
+
+/* line 414, /Users/maggieyan/Desktop/pintellect/app/assets/stylesheets/api/pins.scss */
+.right-container-pin-show {
+  max-width: 508px;
+  max-height: 100%;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+/* line 426, /Users/maggieyan/Desktop/pintellect/app/assets/stylesheets/api/pins.scss */
+.right-top-nav {
+  position: relative;
+  width: 460px;
+  height: 40px;
+  padding: 20px 20px 16px 28px;
+  display: flex;
+  justify-content: flex-end;
+  font-size: 12px;
+}
+
+/* line 436, /Users/maggieyan/Desktop/pintellect/app/assets/stylesheets/api/pins.scss */
+.main-content-pin {
+  color: #111111;
+  padding: 20px;
+  margin-top: 0px;
+  vertical-align: middle;
+}
+/* line 441, /Users/maggieyan/Desktop/pintellect/app/assets/stylesheets/api/pins.scss */
+.main-content-pin h3 {
+  font-size: 36px;
+  margin-top: 0px;
+}
+/* line 446, /Users/maggieyan/Desktop/pintellect/app/assets/stylesheets/api/pins.scss */
+.main-content-pin span {
+  margin-bottom: 45px;
+}
+
+/* line 451, /Users/maggieyan/Desktop/pintellect/app/assets/stylesheets/api/pins.scss */
+#names {
+  display: flex;
+  justify-content: flex-starts;
+  flex-direction: row;
+  align-items: center;
+}
+
+/* line 458, /Users/maggieyan/Desktop/pintellect/app/assets/stylesheets/api/pins.scss */
+#display-names {
+  display: flex;
+  flex-direction: column;
+}
+
+/* line 464, /Users/maggieyan/Desktop/pintellect/app/assets/stylesheets/api/pins.scss */
+.create-pin-img {
+  order: -1;
+  width: 340px;
+  max-height: 454px;
+  height: auto;
+}

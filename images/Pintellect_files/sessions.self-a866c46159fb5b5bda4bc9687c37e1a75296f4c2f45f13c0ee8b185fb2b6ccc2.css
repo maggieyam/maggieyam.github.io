@@ -1,0 +1,130 @@
+/* line 6, /Users/maggieyan/Desktop/pintellect/app/assets/stylesheets/api/sessions.scss */
+.session-bottom {
+  margin-bottom: 0px;
+}
+
+/* line 11, /Users/maggieyan/Desktop/pintellect/app/assets/stylesheets/api/sessions.scss */
+.input-session {
+  width: 280px;
+  min-height: 28px;
+  padding: 8px 16px;
+  border-radius: 16px;
+  margin-top: 0px;
+  margin-bottom: 5px;
+  border-color: #efefef;
+  border-style: solid;
+  border-width: 2px;
+  text-indent: 4px;
+  text-align: start;
+  cursor: text;
+  font-weight: 400;
+}
+
+/* line 27, /Users/maggieyan/Desktop/pintellect/app/assets/stylesheets/api/sessions.scss */
+.logo {
+  margin-top: 20px;
+  margin-bottom: 15px;
+  margin-left: 25px;
+  margin-right: 15px;
+  color: #e60023;
+}
+
+/* line 37, /Users/maggieyan/Desktop/pintellect/app/assets/stylesheets/api/sessions.scss */
+.session-forms {
+  height: 579px;
+  width: 484px;
+  background-color: white;
+  min-height: 400px;
+  padding: 20px 10px 24px;
+  vertical-align: middle;
+  border-radius: 8px;
+  font-size: 16px;
+  position: relative;
+  margin: auto;
+  width: 484px;
+  font-weight: 700px;
+  padding-bottom: 55px;
+  position: relative;
+  text-align: center;
+}
+
+/* line 55, /Users/maggieyan/Desktop/pintellect/app/assets/stylesheets/api/sessions.scss */
+.greeting {
+  margin-top: 0px;
+  display: bolock;
+  font-size: 36px;
+  line-height: 30px;
+}
+
+/* line 62, /Users/maggieyan/Desktop/pintellect/app/assets/stylesheets/api/sessions.scss */
+.find-subject {
+  text-align: center;
+  color: #333333;
+  font-size: 16px;
+  font-weight: normal;
+  margin: 5px 0px 32px 0px;
+}
+
+/* line 71, /Users/maggieyan/Desktop/pintellect/app/assets/stylesheets/api/sessions.scss */
+.nav-link {
+  margin-top: 20px;
+  font-weight: 600;
+  color: #000;
+  text-decoration: none;
+  margin-top: 20px;
+}
+
+/* line 79, /Users/maggieyan/Desktop/pintellect/app/assets/stylesheets/api/sessions.scss */
+.form {
+  display: flex;
+  justify-content: space-around;
+}
+
+/* line 85, /Users/maggieyan/Desktop/pintellect/app/assets/stylesheets/api/sessions.scss */
+#error {
+  color: red;
+  margin-top: 0;
+}
+
+/* line 91, /Users/maggieyan/Desktop/pintellect/app/assets/stylesheets/api/sessions.scss */
+span {
+  font-size: 14px;
+}
+/* line 93, /Users/maggieyan/Desktop/pintellect/app/assets/stylesheets/api/sessions.scss */
+span .error-message {
+  color: red;
+  padding: 15px;
+}
+
+/* line 99, /Users/maggieyan/Desktop/pintellect/app/assets/stylesheets/api/sessions.scss */
+#session-form-text {
+  margin-top: 15px;
+  text-align: center;
+}
+
+/* line 104, /Users/maggieyan/Desktop/pintellect/app/assets/stylesheets/api/sessions.scss */
+#terms-of-service {
+  font-weight: 700;
+  font-size: 11px;
+  margin-top: 2px;
+  display: block;
+  line-height: 3px;
+}
+
+/* line 114, /Users/maggieyan/Desktop/pintellect/app/assets/stylesheets/api/sessions.scss */
+#agreement {
+  font-size: 11px;
+  color: #767676;
+  display: block;
+  line-height: 20px;
+}
+
+/* line 121, /Users/maggieyan/Desktop/pintellect/app/assets/stylesheets/api/sessions.scss */
+#modal-button {
+  width: 320px;
+}
+
+/* line 125, /Users/maggieyan/Desktop/pintellect/app/assets/stylesheets/api/sessions.scss */
+#session-link {
+  margin-top: 25px;
+}
