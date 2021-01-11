@@ -2997,6 +2997,10 @@ input, select, textarea {
 		}
 
 		.wrapper.style3 {
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			align-items: center;
 			background-color: transparent;
 			color: #d3d4e4;
 		}
@@ -3776,15 +3780,15 @@ input, select, textarea {
 		display: flex;
 		max-width: 45em;
 	}
-		#cta .inner header .speech {
+		#cta .speech {
 			background-image: linear-gradient(45deg, rgb(3, 27, 71), rgb(57, 4, 88));
 			display: flex;
 			justify-content: center;
 			align-items: center;
 			position: relative;
-			width: 50%;
+			min-width: 296px;
+			/* width:50%; */
 			margin-top: 100px;
-			margin-left:120px;
 			height: 150px;
 			text-align: center;
 			line-height: 60px;
@@ -3798,6 +3802,7 @@ input, select, textarea {
 			box-shadow: 2px 2px 8px rgb(7, 3, 27);
 			margin-bottom: 100px;
 			font-size: 32px;
+			padding: 20px;
 			font-family: 'Indie Flower', cursive;
 			font-family: 'Noto Sans SC', sans-serif;
 			font-weight: 900;
@@ -3816,13 +3821,16 @@ input, select, textarea {
 			margin-top: 40px;
 			margin-bottom: 40px;
 		}
-		#cta .inner header .speech:before {
+		div#contact{
+			display: flex;
+			flex-direction: column;
+			text-align: center;
+		}
+		#cta .speech:before {
 			content: '';
 			position: absolute;
 			right: 0;
 			top: 78%;
-			width: 0;
-			height: 0;
 			border: 30px solid transparent;
 			border-left-color: rgb(247, 231, 231);
 			border-right: 0;
@@ -3842,7 +3850,13 @@ input, select, textarea {
 			padding-right: 3em;
 			width: 100%;
 		}
-		#cta .inner header .bio {
+
+		/* #cta #about {
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+		} */
+		.bio {
 			display: flex;
 			flex-direction: column;
 			justify-content: center;
@@ -3852,12 +3866,11 @@ input, select, textarea {
 			padding: 60px;
 			padding-bottom: 20px;
 			border-radius: 34px;
-			/* margin-right: 330px; */
-			margin-left: 0px;
 			background-image: linear-gradient(45deg, rgb(3, 27, 71), rgb(57, 4, 88));
 		}
 
-			#cta .inner header p {
+
+			#cta p {
 				color: inherit;
 				font-size: 18px;
 				line-height: 50px;			
