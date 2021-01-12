@@ -2501,7 +2501,7 @@ input, select, textarea {
 		input[type="button"].primary,
 		button.primary,
 		.button.primary {
-			background-color: #7d32f7;
+			background-color: #f58a7c;
 			box-shadow: none !important;
 			color: #ffffff !important;
 		}
@@ -2511,7 +2511,7 @@ input, select, textarea {
 			input[type="button"].primary:hover,
 			button.primary:hover,
 			.button.primary:hover {
-				background-color: #f58a7c !important;
+				background-color: #7d32f7 !important;
 			}
 
 			input[type="submit"].primary:active,
@@ -2519,6 +2519,28 @@ input, select, textarea {
 			input[type="button"].primary:active,
 			button.primary:active,
 			.button.primary:active {
+				background-color: #320368 !important;
+			}
+
+		.button.primary2 {
+			background-color: #7d32f7;
+			box-shadow: none !important;
+			color: #ffffff !important;
+		}
+
+			input[type="submit"].primary2:hover,
+			input[type="reset"].primary2:hover,
+			input[type="button"].primary2:hover,
+			button.primary2:hover,
+			.button.primary2:hover {
+				background-color: #f58a7c !important;
+			}
+
+			input[type="submit"].primary2:active,
+			input[type="reset"].primary2:active,
+			input[type="button"].primary2:active,
+			button.primary2:active,
+			.button.primary2:active {
 				background-color: #320368 !important;
 			}
 
@@ -2720,22 +2742,22 @@ input, select, textarea {
 		}
 
 		.spotlight:nth-child(2) {
-			background-image: linear-gradient(45deg, rgb(9, 88, 236), rgb(157, 14, 240));
+			background-image: linear-gradient(45deg, rgb(94, 146, 243), rgb(204, 127, 248));
 			text-align: center;
 		}
 
 		.spotlight:nth-child(3) {
-			background-image: linear-gradient(45deg, rgb(240, 175, 163), rgb(241, 50, 7));
+			background-image: linear-gradient(45deg, rgb(0, 76, 89), rgb(16, 171, 131));
 			text-align: center;
 		}
 
 		.spotlight:nth-child(4) {
-			background-image: linear-gradient(45deg, rgb(175, 11, 240), rgb(222, 7, 230));
+			background-image: linear-gradient(45deg, rgb(83, 109, 254), rgb(77, 208, 225));
 			text-align: center;
 		}
 
 		.spotlight:nth-child(5) {
-			background-image: linear-gradient(135deg, rgb(240, 64, 11), rgb(222, 7, 230));
+			background-image: linear-gradient(135deg, rgb(39, 38, 39), rgb(81, 53, 87));
 			text-align: center;
 		}
 
@@ -2834,7 +2856,7 @@ input, select, textarea {
 		}
 
 		.wrapper.style1 {
-			background-image: linear-gradient(45deg, rgb(32, 3, 39), rgb(28, 17, 126));
+			background-image: linear-gradient(45deg, rgb(0, 130, 116), rgb(16, 171, 131));
 			color: #c8ece9;
 		}
 
@@ -3781,7 +3803,7 @@ input, select, textarea {
 		max-width: 45em;
 	}
 		#cta .inner .speech {
-			background-image: linear-gradient(45deg, rgb(3, 27, 71), rgb(57, 4, 88));
+			background-image: linear-gradient(45deg, rgb(11, 31, 70), rgb(71, 24, 97));
 			display: flex;
 			justify-content: center;
 			align-items: center;
