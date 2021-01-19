@@ -2141,6 +2141,8 @@ input, select, textarea {
 			width: 96px;
 			height: 96px;
 			padding: 2px;
+			margin: 0 10px;
+			border-radius: 16px;
 		}
 
 		.skill-img2 {
@@ -2151,6 +2153,10 @@ input, select, textarea {
 		.skill-icon {
 			padding-left: 10px;
 			padding-right: 10px;
+		}
+		.skill-img, .skill-icon {
+			margin-top: 15px;
+			margin-bottom: 15px;
 		}
 
 /* List */
